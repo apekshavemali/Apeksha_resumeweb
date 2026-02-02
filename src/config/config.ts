@@ -10,13 +10,8 @@ const siteConfig = {
     title: 'Student',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
-      '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
-      '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
-      '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
+      'I am a first-year economics student with a strong interest in private equity, macroeconomic theory, and the intersection of game mechanics and resource allocation. My background includes leadership roles in research and content writing for NGOs, alongside extensive experience in event hosting and student welfare coordination. Currently, I am focused on bridging the gap between theoretical economic models and real-world financial strategy.\n' +
+      '\n',
     tagline: 'Learning more and more every day',
     location: 'Bangalore, India',
   },
@@ -26,7 +21,7 @@ const siteConfig = {
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Aspiring Economist', 'Public FInancing', 'Your Interest', 'Builder'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -51,18 +46,18 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'DAV Public School, Pune',
-      degree: 'Grade 1-12',
-      year: 'Batch of 2025',
-      image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
-    },
-    {
       institution: 'Christ University',
       degree: 'Bsc in Economics and Data Science',
       year: 'Batch of 2029',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['Relevant coursework: Microeconomics, Macroeconomics, Data Visualisation, Statistics '], 
+    },
+    {
+      institution: 'DAV Public School, Pune',
+      degree: 'Grade 1-12',
+      year: 'Batch of 2025',
+      image: getAsset('images/education/placeholder.png'),
+      description: ['Graduated with Distinction in Commerce Stream, focusing on economics, business studies, and accountancy'],
     },
   ],
 
