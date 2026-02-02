@@ -6,8 +6,8 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'Apeksha Vemali',
+    title: 'Student',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
       'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
@@ -17,12 +17,12 @@ const siteConfig = {
       'Summarize your education or certifications briefly and highlight your practical work.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    tagline: 'Learning more and more every day',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Your Name | Your Title',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
@@ -51,16 +51,16 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'DAV Public School, Pune',
+      degree: 'Grade 1-12',
+      year: 'Batch of 2025',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'Christ University',
+      degree: 'Bsc in Economics and Data Science',
+      year: 'Batch of 2029',
       image: getAsset('images/education/placeholder.png'),
       description: ['Key topics or skills learned'],
     },
