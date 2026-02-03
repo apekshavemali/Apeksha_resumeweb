@@ -64,7 +64,7 @@ const siteConfig = {
       title: 'Emcee Committee and University Cultural Team',
       cardImage: getAsset('images/experience/placeholder.png'),
       place: 'Student Welfare Office, Christ University',
-      time: '(MMM YYYY – MMM YYYY)',
+      time: '(July 2025 – Present)',
       desp: ['Hosted 3 major college events, managing the stage and keeping the program on track for large audiences.', 'Worked with event organizers to handle script changes and technical cues smoothly during live performances., 1st Place, Darpan ’25: Won the top spot in a competitive university-wide cultural event. , 2nd Place, Blossoms ’26: Placed in the top three for a major inter-college arts festival for dance.'],
     },
   ],
@@ -73,6 +73,7 @@ const siteConfig = {
   contact: {
     email: 'vemali.apeksha@gmail.com',
     linkedin: 'https://www.linkedin.com/in/apeksha-vemali/',
+    contact: '9588440895'
   },
 };
 
