@@ -18,7 +18,7 @@ const siteConfig = {
       '\n' +
       'Co-authored with Esha Naidu "Percy Jackson".',
     tagline: 'Learning something new everyday',
-    location: 'Bengaluru, India',
+    location: 'Banglore, India',
   },
 
   seo: {
