@@ -18,10 +18,10 @@ const siteConfig = {
 
   seo: {
     title: 'Your Name | Your Title',
-    description: "Portfolio website showcasing your education, research, projects, and experience.",
+    description: "Portfolio website showcasing your education, research, projects, and experience."
   },
 
-  animatedText: ['Aspiring Economist', 'Public FInancing', 'Your Interest', 'Builder'],
+  animatedText: ['Aspiring Economist', 'Public Financing', 'Your Interest', 'Builder'],
 
   navigation: [
     { name: 'Home', url: '/' },
