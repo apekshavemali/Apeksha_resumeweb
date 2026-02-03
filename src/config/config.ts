@@ -25,24 +25,14 @@ const siteConfig = {
 
   navigation: [
     { name: 'Home', url: '/' },
-    { name: 'Projects', url: '/projects' },
-    { name: 'Research', url: '/research' },
     { name: 'Education', url: '/education' },
     { name: 'Experience', url: '/experience' },
-    { name: 'Blogs', url: '/blogs' },
     { name: 'Resume', url: '/resume' },
     { name: 'Contact', url: '/contact' },
   ],
 
   // Static blog entries. Use getAsset so the URL respects NEXT_PUBLIC_BASE_PATH / next.config.basePath
   // Add more entries here as you add more static HTML blog files under public/static_page/
-  blogs: [
-    {
-      title: 'Your Blog Title',
-      url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
-    },
-  ],
-
 
   education: [
     {
@@ -61,93 +51,28 @@ const siteConfig = {
     },
   ],
 
-// ✅ Unified MOOC + Certifications Section
-  certifications: [
-    {
-      title: 'Your Certificate or Specialization',
-      specialization: true,
-      file: getAsset('images/education/Certifications/download.svg'),
-      certificates: [
-        { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
-        { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
-      ],
-    },
-    {
-      title: 'Another Certificate',
-      file: getAsset('images/education/Certifications/download.svg'),
-    },
-  ],
-
-
-
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Head of Research and Content',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
-      time: '(MMM YYYY – Present)',
-      desp: ['Brief responsibility 1', 'Brief responsibility 2'],
+      place: 'Jeevan NGO',
+      time: '(September 2025 – Present)',
+      desp: ['Managed stakeholder outreach, contacting local organizations and authorities to coordinate event logistics and permissions.', 'Produced research-based content and reports to document the NGO’s impact and support fundraising efforts.'],
     },
     {
-      title: 'Previous Role',
+      title: 'Emcee Committee and University Cultural Team',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
+      place: 'Student Welfare Office, Christ University',
       time: '(MMM YYYY – MMM YYYY)',
-      desp: ['Key contribution 1', 'Key contribution 2'],
+      desp: ['Hosted 3 major college events, managing the stage and keeping the program on track for large audiences.', 'Worked with event organizers to handle script changes and technical cues smoothly during live performances., 1st Place, Darpan ’25: Won the top spot in a competitive university-wide cultural event. , 2nd Place, Blossoms ’26: Placed in the top three for a major inter-college arts festival for dance.'],
     },
   ],
 
-
-  // ✅ Projects section updated
-  projects: [
-    {
-      title: 'Project Title 1',
-      cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Short description of your project and what it does...',
-      Githublink: 'https://github.com/your-username/your-project',
-    },
-    {
-      title: 'Project Title 2',
-      cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Another project summary...',
-      Githublink: 'https://github.com/your-username/another-project',
-    },
-  ],
-
-
-  research: [
-    {
-      title: 'Your Paper or Research Title',
-      authors: 'Your Name, Collaborator Name',
-      conferences: 'Conference or Journal, Publisher',
-      researchYr: 2024,
-  image: getAsset('images/research/placeholder.png'),
-      citation: {
-        vancouver:
-          'Author A, Author B. Title of the work. Venue, Year. DOI/URL.',
-      },
-      abstract:
-        'One or two sentences summarizing the contribution...',
-      link: 'https://example.com/your-publication',
-    },
-  ],
-
-  books: [
-    {
-      title: 'Your Book Title',
-      description: 'Short description of your book or resource.',
-      image: getAsset('images/book_cover_placeholder.png'),
-      link: 'https://example.com/your-book',
-    },
-  ],
 
   contact: {
-    email: 'your.email@example.com',
-    linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
-    googleScholar: 'https://scholar.google.com/citations?user=YOURID',
-    orcid: 'https://orcid.org/0000-0000-0000-0000',
+    email: 'vemali.apeksha@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/apeksha-vemali/',
   },
 };
 
